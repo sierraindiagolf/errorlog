@@ -1,7 +1,7 @@
 (function () {
-    var onsoleErrorBackup = console.error;
+    var consoleErrorBackup = console.error;
 
-    window.logger = {
+    window.errorLogger = {
         version: '0.0.1',
         logger: {
             onError: undefined,
@@ -31,8 +31,6 @@
             var errorObj = {
                 title: errTitle,
                 lineColumn: errLineColumn[0],
-                buildNumber: buildTag,
-                applicationVersion: version,
                 windowHeight: windowHeight,
                 windowWidth: windowWidth,
                 os: os,
@@ -41,14 +39,14 @@
                 payload: errPayload
             };
 
-            if (window.logger.onError) {
-                window.logger.onError(orrorObj, error);
+            if (window.errorLogger.logger.onError) {
+                window.errorLogger.logger.onError(orrorObj, error);
             }
 
-            window.logger.log.push(errorObj);
+            window.errorLogger.logger.log.push(errorObj);
 
-            if (window.logger.send) {
-                window.logger.send();
+            if (window.errorLogger.logger.send) {
+                window.errorLogger.logger.send();
             }
         }
     }
