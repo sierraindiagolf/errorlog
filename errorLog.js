@@ -6,7 +6,7 @@
         logger: {
             onError: undefined,
             send: undefined,
-            log: [];
+            log: []
         }
     };
 
