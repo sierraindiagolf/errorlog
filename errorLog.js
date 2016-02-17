@@ -26,8 +26,7 @@
             var pattern = /[\d]+\:[\d]+/;
             var errLineColumn = pattern.exec(lineColumn);
             var url = window.location.href;
-            var clientId = Alcedo7Settings.selectedClient ? Alcedo7Settings.selectedClient.id : 0;
-            var userId = Alcedo7Settings.currentUser ? Alcedo7Settings.currentUser.id : 0;
+
 
             var errorObj = {
                 title: errTitle,
@@ -39,8 +38,6 @@
                 os: os,
                 browser: browser,
                 url: url,
-                clientId: clientId,
-                userId: userId,
                 payload: errPayload
             };
 
