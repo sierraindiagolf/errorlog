@@ -40,7 +40,7 @@
             };
 
             if (window.errorLogger.logger.onError) {
-                window.errorLogger.logger.onError(orrorObj, error);
+                window.errorLogger.logger.onError(errorObj, error);
             }
 
             window.errorLogger.logger.log.push(errorObj);
