@@ -19,6 +19,5 @@
     "src/main/webapp/bower_components",
     "test",
     "tests"
-  ],
-  "main": ["errorlog.js"]
+  ]
 }
