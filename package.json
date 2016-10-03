@@ -1,0 +1,25 @@
+{
+  "name": "errorlog",
+  "version": "0.0.3",
+  "description": "A simple console.error override written in pure javascript.",
+  "main": "errorlog.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sierraindiagolf/errorlog.git"
+  },
+  "keywords": [
+    "error",
+    "log",
+    "console.error",
+    "override"
+  ],
+  "author": "sierraindiagolf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sierraindiagolf/errorlog/issues"
+  },
+  "homepage": "https://github.com/sierraindiagolf/errorlog#readme"
+}
