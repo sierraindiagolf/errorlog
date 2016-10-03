@@ -1,5 +1,5 @@
 {
-  "name": "errorlog",
+  "name": "errorlog-browser",
   "version": "0.0.3",
   "description": "A simple console.error override written in pure javascript.",
   "main": "errorlog.js",

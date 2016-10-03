@@ -9,6 +9,7 @@ Set up the snippet to transport data back to you server.
 
 ## Installation
 <code>bower install errorlog</code>
+<code>bower install errorlog-browser</code>
 
 ## API
 
