@@ -2,7 +2,7 @@
   var consoleErrorBackup = console.error;
 
   window.errorLogger = {
-    version: '0.0.3',
+    version: '1.0.0',
     logger: {
       onError: undefined,
       send: undefined,
@@ -53,7 +53,7 @@
         os: os,
         browser: browser,
         url: url,
-        payload: errPayload
+        payload: JSON.stringify(errPayload)
       };
 
       if (window.errorLogger.logger.onError) {
