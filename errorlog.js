@@ -46,7 +46,7 @@
 
 
       var errorObj = {
-        title: errTitle,
+        title: JSON.stringify(errTitle),
         lineColumn: errLineColumn ? errLineColumn[0] : null,
         windowHeight: windowHeight,
         windowWidth: windowWidth,
