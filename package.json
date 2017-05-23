@@ -1,6 +1,6 @@
 {
   "name": "errorlog-browser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple console.error override written in pure javascript.",
   "main": "errorlog.js",
   "scripts": {

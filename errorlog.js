@@ -25,7 +25,7 @@
       if (splittedError) {
         errTitle = splittedError[0];
       } else {
-        errTitle = error;
+        errTitle = '';
       }
       var errPayload = error;
       var windowWidth = document.documentElement.clientWidth;
