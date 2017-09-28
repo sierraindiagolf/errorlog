@@ -15,7 +15,7 @@
       consoleErrorBackup.apply(this, arguments);
 
       var splittedError;
-      if (error.split) {
+      if (error && error.split) {
         splittedError = error.split('\n')
       } else if (error.stack) {
         splittedError = error.stack.split('\n');
