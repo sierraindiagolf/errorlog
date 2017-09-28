@@ -22,7 +22,7 @@
       }
 
       var errTitle;
-      if (splittedError) {
+      if (splittedError && error.split) {
         errTitle = splittedError[0];
         if (splittedError[0].length > 254) {
           errTitle = errTitle.substr(0, 254);
