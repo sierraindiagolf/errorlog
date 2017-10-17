@@ -17,7 +17,7 @@
       var splittedError;
       if (error && error.split) {
         splittedError = error.split('\n')
-      } else if (error.stack) {
+      } else if (error && error.stack) {
         splittedError = error.stack.split('\n');
       }
 
