@@ -1,9 +1,10 @@
 {
   "name": "errorlog",
   "main": "errorlog.js",
+  "version": "1.0.2",
   "homepage": "https://github.com/sierraindiagolf/errorlog",
   "authors": [
-    "Stefan <s.gencarau@gmail.com>"
+    "Stefan <sierraindiagolf@gmail.com>"
   ],
   "description": "A simple override of console.error",
   "moduleType": [],
